@@ -15,7 +15,7 @@ import com.zaxxer.hikari.HikariDataSource;
 // root-context.xml에 해당하는 클래스
 
 @Configuration
-@ComponentScan(basePackages = {"org.barista.sample"})
+@ComponentScan(basePackages = {"org.barista.service", "org.barista.controller"})
 @MapperScan(basePackages = {"org.barista.mapper"})
 public class RootConfig {
 	
